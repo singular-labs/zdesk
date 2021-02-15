@@ -10,7 +10,7 @@ setup(
     packages = ['zdesk'],
     include_package_data = True,
     install_requires = ['requests', 'six'],
-    setup_requires = ['pytest-runner'],
+    setup_requires = ['pytest-runner<=5.2.0'],
     tests_require = ['pytest'],
     license='LICENSE.txt',
     url = 'https://github.com/fprimex/zdesk',
